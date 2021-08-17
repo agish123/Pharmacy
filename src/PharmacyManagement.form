@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 600]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,32,0,0,3,-24"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1000" height="800"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel2" max="32767" attributes="0"/>
+                      <Component id="jLabel9" pref="140" max="32767" attributes="0"/>
+                      <Component id="jLabel7" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtquantity" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cbose1" min="-2" pref="201" max="-2" attributes="0"/>
+                          <Component id="cbose2" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel5" alignment="0" min="-2" pref="156" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtref" min="-2" pref="201" max="-2" attributes="0"/>
+                      <Component id="txtdose" min="-2" pref="201" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="275" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="138" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel3" alignment="0" min="-2" pref="432" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="529" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" pref="155" max="-2" attributes="0"/>
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
+                      <Component id="txtup" min="-2" pref="201" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="56" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="56" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="cbose1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txtref" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="cbose2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txtdose" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txtquantity" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="231" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtup" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="618" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Akish Pharmacy Management System "/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="4"/>
+              </Border>
+            </Property>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Welcome to"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="4"/>
+              </Border>
+            </Property>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbose1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI Semibold" size="14" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="275">
+                <StringItem index="0" value="Make a selection"/>
+                <StringItem index="1" value="Panadol"/>
+                <StringItem index="2" value="Abacavir Sulfate"/>
+                <StringItem index="3" value="Abarelix"/>
+                <StringItem index="4" value="Abatacept"/>
+                <StringItem index="5" value="Abciximab"/>
+                <StringItem index="6" value="Abelcet"/>
+                <StringItem index="7" value="Abilify"/>
+                <StringItem index="8" value="Abraxane"/>
+                <StringItem index="9" value="Acamprosate Calcium"/>
+                <StringItem index="10" value="Acarbose"/>
+                <StringItem index="11" value="Accolate"/>
+                <StringItem index="12" value="Accretropin"/>
+                <StringItem index="13" value="AccuNeb"/>
+                <StringItem index="14" value="Accupril"/>
+                <StringItem index="15" value="Accutane"/>
+                <StringItem index="16" value="Acebutolol"/>
+                <StringItem index="17" value="Aceon"/>
+                <StringItem index="18" value="Acetadote"/>
+                <StringItem index="19" value="Acetaminophen"/>
+                <StringItem index="20" value="Acetic Acid"/>
+                <StringItem index="21" value="Aci-Jel"/>
+                <StringItem index="22" value="Aciphex"/>
+                <StringItem index="23" value="Acitretin"/>
+                <StringItem index="24" value="Aclovate"/>
+                <StringItem index="25" value="Acrivastine and Pseudoephedrine"/>
+                <StringItem index="26" value="Actemra"/>
+                <StringItem index="27" value="Acthrel"/>
+                <StringItem index="28" value="Acticin"/>
+                <StringItem index="29" value="Actimmune"/>
+                <StringItem index="30" value="Actiq"/>
+                <StringItem index="31" value="Actisite"/>
+                <StringItem index="32" value="Activase"/>
+                <StringItem index="33" value="Activella"/>
+                <StringItem index="34" value="Actonel"/>
+                <StringItem index="35" value="Actos"/>
+                <StringItem index="36" value="Acular"/>
+                <StringItem index="37" value="Acular LS"/>
+                <StringItem index="38" value="Acuvail"/>
+                <StringItem index="39" value="Acyclovir"/>
+                <StringItem index="40" value="Adacel"/>
+                <StringItem index="41" value="Adagen"/>
+                <StringItem index="42" value="Adalat CC"/>
+                <StringItem index="43" value="Adalimumab"/>
+                <StringItem index="44" value="Adapalene"/>
+                <StringItem index="45" value="Adcirca"/>
+                <StringItem index="46" value="Adderall"/>
+                <StringItem index="47" value="Adderall XR"/>
+                <StringItem index="48" value="Adefovir Dipivoxil"/>
+                <StringItem index="49" value="Adenoscan"/>
+                <StringItem index="50" value="Adenosine"/>
+                <StringItem index="51" value="Adipex-P"/>
+                <StringItem index="52" value="Adoxa"/>
+                <StringItem index="53" value="Adrenalin"/>
+                <StringItem index="54" value="AdreView"/>
+                <StringItem index="55" value="Adriamycin PFS"/>
+                <StringItem index="56" value="Advair Diskus"/>
+                <StringItem index="57" value="Advair HFA"/>
+                <StringItem index="58" value="Advicor"/>
+                <StringItem index="59" value="Aerospan HFA"/>
+                <StringItem index="60" value="Afinitor"/>
+                <StringItem index="61" value="Afluria"/>
+                <StringItem index="62" value="Agalsidase Beta"/>
+                <StringItem index="63" value="Aggrastat"/>
+                <StringItem index="64" value="Aggrenox"/>
+                <StringItem index="65" value="Agrylin"/>
+                <StringItem index="66" value="Ak-Fluor"/>
+                <StringItem index="67" value="Akineton"/>
+                <StringItem index="68" value="Alamast"/>
+                <StringItem index="69" value="Albendazole"/>
+                <StringItem index="70" value="Albenza"/>
+                <StringItem index="71" value="Albumin, Human"/>
+                <StringItem index="72" value="Albuminar"/>
+                <StringItem index="73" value="Albuterol Sulfate"/>
+                <StringItem index="74" value="Albuterol Sulfate Inhalation Aerosol"/>
+                <StringItem index="75" value="Alcaine"/>
+                <StringItem index="76" value="Alclometasone Dipropionate"/>
+                <StringItem index="77" value="Aldactazide"/>
+                <StringItem index="78" value="Aldactone"/>
+                <StringItem index="79" value="Aldara"/>
+                <StringItem index="80" value="Aldesleukin"/>
+                <StringItem index="81" value="Aldomet"/>
+                <StringItem index="82" value="Aldoril"/>
+                <StringItem index="83" value="Aldurazyme"/>
+                <StringItem index="84" value="Alefacept"/>
+                <StringItem index="85" value="Alemtuzumab"/>
+                <StringItem index="86" value="Alendronate Sodium"/>
+                <StringItem index="87" value="Alesse"/>
+                <StringItem index="88" value="Alfenta"/>
+                <StringItem index="89" value="Alfentanil"/>
+                <StringItem index="90" value="Alfuzosin HCl"/>
+                <StringItem index="91" value="Alglucosidase Alfa"/>
+                <StringItem index="92" value="Alimta"/>
+                <StringItem index="93" value="Alinia"/>
+                <StringItem index="94" value="Alitretinoin"/>
+                <StringItem index="95" value="Alkeran"/>
+                <StringItem index="96" value="Allegra"/>
+                <StringItem index="97" value="Allegra-D"/>
+                <StringItem index="98" value="Allegra D 24 Hour"/>
+                <StringItem index="99" value="Allernaze"/>
+                <StringItem index="100" value="Alli"/>
+                <StringItem index="101" value="Allopurinol"/>
+                <StringItem index="102" value="Almotriptan Malate"/>
+                <StringItem index="103" value="Alocril"/>
+                <StringItem index="104" value="Alomide"/>
+                <StringItem index="105" value="Aloprim"/>
+                <StringItem index="106" value="Alora"/>
+                <StringItem index="107" value="Alosetron Hydrochloride"/>
+                <StringItem index="108" value="Aloxi"/>
+                <StringItem index="109" value="Alphanate"/>
+                <StringItem index="110" value="Alprazolam"/>
+                <StringItem index="111" value="Alprostadil"/>
+                <StringItem index="112" value="Alrex"/>
+                <StringItem index="113" value="Alsuma"/>
+                <StringItem index="114" value="Altabax"/>
+                <StringItem index="115" value="Altace"/>
+                <StringItem index="116" value="Alteplase"/>
+                <StringItem index="117" value="Altocor"/>
+                <StringItem index="118" value="Altoprev"/>
+                <StringItem index="119" value="Altretamine"/>
+                <StringItem index="120" value="Alupent"/>
+                <StringItem index="121" value="Alvesco"/>
+                <StringItem index="122" value="Amantadine Hydrochloride"/>
+                <StringItem index="123" value="Amaryl"/>
+                <StringItem index="124" value="Ambien"/>
+                <StringItem index="125" value="Ambien CR"/>
+                <StringItem index="126" value="Ambisome"/>
+                <StringItem index="127" value="Amerge"/>
+                <StringItem index="128" value="Americaine"/>
+                <StringItem index="129" value="Amevive"/>
+                <StringItem index="130" value="Amicar"/>
+                <StringItem index="131" value="Amifostine"/>
+                <StringItem index="132" value="Amikacin"/>
+                <StringItem index="133" value="Amikin"/>
+                <StringItem index="134" value="Amiloride"/>
+                <StringItem index="135" value="Amiloride and Hydrochlorothiazide"/>
+                <StringItem index="136" value="Amiloride Hydrochloride"/>
+                <StringItem index="137" value="Amino Acids"/>
+                <StringItem index="138" value="Aminocaproic Acid"/>
+                <StringItem index="139" value="Aminoglutethimide"/>
+                <StringItem index="140" value="Aminohippurate Sodium"/>
+                <StringItem index="141" value="Aminolevulinic Acid"/>
+                <StringItem index="142" value="Aminosalicylic Acid"/>
+                <StringItem index="143" value="Aminosyn II 8.5%"/>
+                <StringItem index="144" value="Aminosyn II in Dextrose"/>
+                <StringItem index="145" value="Amitiza"/>
+                <StringItem index="146" value="Amitriptyline"/>
+                <StringItem index="147" value="Amlexanox"/>
+                <StringItem index="148" value="Amlodipine Besylate"/>
+                <StringItem index="149" value="Amoxapine"/>
+                <StringItem index="150" value="Amoxicillin"/>
+                <StringItem index="151" value="Amoxicillin Clavulanate"/>
+                <StringItem index="152" value="Amoxil"/>
+                <StringItem index="153" value="Amphadase"/>
+                <StringItem index="154" value="Amphetamine"/>
+                <StringItem index="155" value="Amphotericin B"/>
+                <StringItem index="156" value="Ampicillin"/>
+                <StringItem index="157" value="Ampyra"/>
+                <StringItem index="158" value="Amrix"/>
+                <StringItem index="159" value="Amyl Nitrite"/>
+                <StringItem index="160" value="Amytal Sodium"/>
+                <StringItem index="161" value="Anabolic steroids"/>
+                <StringItem index="162" value="Anadrol-50"/>
+                <StringItem index="163" value="Anafranil"/>
+                <StringItem index="164" value="Anagrelide"/>
+                <StringItem index="165" value="Anakinra"/>
+                <StringItem index="166" value="Anastrozole"/>
+                <StringItem index="167" value="Ancobon"/>
+                <StringItem index="168" value="Androderm"/>
+                <StringItem index="169" value="AndroGel"/>
+                <StringItem index="170" value="Anectine"/>
+                <StringItem index="171" value="Angeliq"/>
+                <StringItem index="172" value="Angiomax"/>
+                <StringItem index="173" value="Anidulafungin"/>
+                <StringItem index="174" value="Anisindione"/>
+                <StringItem index="175" value="Ansaid"/>
+                <StringItem index="176" value="Antabuse"/>
+                <StringItem index="177" value="Antara"/>
+                <StringItem index="178" value="Anthralin"/>
+                <StringItem index="179" value="Antihemophilic Factor"/>
+                <StringItem index="180" value="Antithrombin"/>
+                <StringItem index="181" value="Antivenin"/>
+                <StringItem index="182" value="Antivert"/>
+                <StringItem index="183" value="Antizol"/>
+                <StringItem index="184" value="Anturane"/>
+                <StringItem index="185" value="Anusol Hc"/>
+                <StringItem index="186" value="Aphthasol"/>
+                <StringItem index="187" value="Apidra"/>
+                <StringItem index="188" value="Aplenzin"/>
+                <StringItem index="189" value="Apokyn"/>
+                <StringItem index="190" value="Apomorphine"/>
+                <StringItem index="191" value="Apraclonidine"/>
+                <StringItem index="192" value="Apresazide"/>
+                <StringItem index="193" value="Apresoline"/>
+                <StringItem index="194" value="Apri"/>
+                <StringItem index="195" value="Apriso"/>
+                <StringItem index="196" value="Aprotinin"/>
+                <StringItem index="197" value="Aptivus"/>
+                <StringItem index="198" value="Aquasol A"/>
+                <StringItem index="199" value="Aralen"/>
+                <StringItem index="200" value="Aramine"/>
+                <StringItem index="201" value="Aranesp"/>
+                <StringItem index="202" value="Arava"/>
+                <StringItem index="203" value="Arcalyst"/>
+                <StringItem index="204" value="Aredia"/>
+                <StringItem index="205" value="Argatroban"/>
+                <StringItem index="206" value="Aricept"/>
+                <StringItem index="207" value="Arimidex"/>
+                <StringItem index="208" value="Aripiprazole"/>
+                <StringItem index="209" value="Aristocort"/>
+                <StringItem index="210" value="Arixtra"/>
+                <StringItem index="211" value="Armodafinil"/>
+                <StringItem index="212" value="Aromasin"/>
+                <StringItem index="213" value="Arranon"/>
+                <StringItem index="214" value="Artane"/>
+                <StringItem index="215" value="Arthrotec"/>
+                <StringItem index="216" value="Arzerra"/>
+                <StringItem index="217" value="Asacol"/>
+                <StringItem index="218" value="Asacol HD"/>
+                <StringItem index="219" value="Asclera"/>
+                <StringItem index="220" value="Ascorbic Acid"/>
+                <StringItem index="221" value="Asmanex Twisthaler"/>
+                <StringItem index="222" value="Asparaginase"/>
+                <StringItem index="223" value="Aspirin"/>
+                <StringItem index="224" value="Astelin"/>
+                <StringItem index="225" value="Astemizole"/>
+                <StringItem index="226" value="Astepro"/>
+                <StringItem index="227" value="Atacand"/>
+                <StringItem index="228" value="Atacand HCT"/>
+                <StringItem index="229" value="Atazanavir Sulfate"/>
+                <StringItem index="230" value="Atenolol and Chlorthalidone"/>
+                <StringItem index="231" value="Atgam"/>
+                <StringItem index="232" value="Ativan"/>
+                <StringItem index="233" value="Atomoxetine HCl"/>
+                <StringItem index="234" value="Atorvastatin Calcium"/>
+                <StringItem index="235" value="Atovaquone"/>
+                <StringItem index="236" value="Atracurium Besylate"/>
+                <StringItem index="237" value="Atralin"/>
+                <StringItem index="238" value="Atridox"/>
+                <StringItem index="239" value="Atripla"/>
+                <StringItem index="240" value="Atromid-S"/>
+                <StringItem index="241" value="Atropen"/>
+                <StringItem index="242" value="Atropine"/>
+                <StringItem index="243" value="Atrovent HFA"/>
+                <StringItem index="244" value="Atryn"/>
+                <StringItem index="245" value="Augmentin"/>
+                <StringItem index="246" value="Augmentin XR"/>
+                <StringItem index="247" value="Auralgan"/>
+                <StringItem index="248" value="Avage"/>
+                <StringItem index="249" value="Avalide"/>
+                <StringItem index="250" value="Avandamet"/>
+                <StringItem index="251" value="Avandaryl"/>
+                <StringItem index="252" value="Avandia"/>
+                <StringItem index="253" value="Avapro"/>
+                <StringItem index="254" value="Avastin"/>
+                <StringItem index="255" value="Avelox"/>
+                <StringItem index="256" value="Avinza"/>
+                <StringItem index="257" value="Avodart"/>
+                <StringItem index="258" value="Avonex"/>
+                <StringItem index="259" value="Axert"/>
+                <StringItem index="260" value="Axid"/>
+                <StringItem index="261" value="Aygestin"/>
+                <StringItem index="262" value="Azacitidine"/>
+                <StringItem index="263" value="Azasan"/>
+                <StringItem index="264" value="Azasite"/>
+                <StringItem index="265" value="Azathioprine"/>
+                <StringItem index="266" value="Azelaic Acid"/>
+                <StringItem index="267" value="Azelastine Hydrochloride"/>
+                <StringItem index="268" value="Azelex"/>
+                <StringItem index="269" value="Azilect"/>
+                <StringItem index="270" value="Azithromycin"/>
+                <StringItem index="271" value="Azmacort"/>
+                <StringItem index="272" value="Azopt"/>
+                <StringItem index="273" value="Azor"/>
+                <StringItem index="274" value="Azulfidine EN-Tabs"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbose1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Quantity"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtquantity">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Drug Name"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtdose">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Dose"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtup">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtupActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Unit price"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Drug Type"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbose2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI Semibold" size="14" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="11">
+                <StringItem index="0" value="Make a selection"/>
+                <StringItem index="1" value="Tablet"/>
+                <StringItem index="2" value="Liquid"/>
+                <StringItem index="3" value="Capsules"/>
+                <StringItem index="4" value="Topical medicines"/>
+                <StringItem index="5" value="Suppositories"/>
+                <StringItem index="6" value="Drops"/>
+                <StringItem index="7" value="Inhalers"/>
+                <StringItem index="8" value="Injections"/>
+                <StringItem index="9" value="Implants or patches"/>
+                <StringItem index="10" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="btnadd" min="-2" pref="166" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="btnupdate" min="-2" pref="166" max="-2" attributes="0"/>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                      <Component id="btndelete" min="-2" pref="166" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnclear" min="-2" pref="166" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnexit" min="-2" pref="166" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnexit" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btndelete" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btnadd" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btnclear" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="btnupdate" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="25" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnexit">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnexitActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btndelete">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btndeleteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnclear">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Clear"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnclearActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnadd">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnaddMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnaddActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnupdate">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnupdateMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnupdateActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Century Schoolbook" size="18" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="6" rowCount="0">
+                    <Column editable="true" title="Ref.NO" type="java.lang.Object"/>
+                    <Column editable="true" title="Drug Name" type="java.lang.Object"/>
+                    <Column editable="true" title="Drug Type" type="java.lang.Object"/>
+                    <Column editable="true" title="Quantity" type="java.lang.Object"/>
+                    <Column editable="true" title="Unit price" type="java.lang.Object"/>
+                    <Column editable="true" title="Dose" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Reference Number"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtref">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtrefActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
